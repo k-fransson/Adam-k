@@ -1,0 +1,130 @@
+/*ADAM OCH K MAIN CSS*/
+body{
+    background-image: url(../Bilder/3854786.jpg);
+    background-attachment:fixed;
+}
+
+
+
+/* Layout struktur */
+header{
+    height: 150px;
+    background: #2c2c2c;
+    width: 90%;
+    max-width: 960px;
+    min-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -11px;
+}
+.wrapper {
+    width: 90%;
+    max-width: 960px;
+    min-width: 680px;
+    min-height: 1000px;
+    background: #d3d3d3;
+    /* Lägg wrappern i mitten av sidan */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.logo {
+    width: %%;
+    float: left;
+}
+.logo img {
+    width: 150px;
+}
+.headline{
+    font-family: sans-serif;
+    font-size: 50px;
+    float: middle;
+    width: 372px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: white;
+}
+nav.meny{
+    width: 63%;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+
+/* Meny */
+
+nav {
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background: #777777;
+    padding: 10px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #909090;
+    color: white;
+}
+nav {}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-left: 10px;
+      
+}
+
+nav a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 22px;
+    
+}
+
+nav a:hover {}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+border: 1px solid #909090;;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #909090;;  
+border-radius: 10px;
+}
+nav li.unclickable a{
+    background: #909090;
+    color: white;
+}
